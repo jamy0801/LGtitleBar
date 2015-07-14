@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307F59ED1B54A41300764FC4 /* LGCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307F59EC1B54A41300764FC4 /* LGCategoryView.m */; };
 		357A0B711B47A52500354597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A0B701B47A52500354597 /* main.m */; };
 		357A0B741B47A52500354597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A0B731B47A52500354597 /* AppDelegate.m */; };
 		357A0B771B47A52500354597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357A0B761B47A52500354597 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307F59EB1B54A41300764FC4 /* LGCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCategoryView.h; sourceTree = "<group>"; };
+		307F59EC1B54A41300764FC4 /* LGCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCategoryView.m; sourceTree = "<group>"; };
 		357A0B6B1B47A52500354597 /* titleScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titleScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357A0B6F1B47A52500354597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		357A0B701B47A52500354597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		307F59EA1B54A2E700764FC4 /* LGCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				307F59EB1B54A41300764FC4 /* LGCategoryView.h */,
+				307F59EC1B54A41300764FC4 /* LGCategoryView.m */,
+			);
+			name = LGCategoryView;
+			sourceTree = "<group>";
+		};
 		357A0B621B47A52500354597 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 		357A0B6D1B47A52500354597 /* titleScroll */ = {
 			isa = PBXGroup;
 			children = (
+				307F59EA1B54A2E700764FC4 /* LGCategoryView */,
 				358742AC1B4B96320050AE67 /* LGtitleScroll */,
 				357A0B751B47A52500354597 /* ViewController.h */,
 				357A0B761B47A52500354597 /* ViewController.m */,
@@ -242,6 +255,7 @@
 				357A0B741B47A52500354597 /* AppDelegate.m in Sources */,
 				357A0B711B47A52500354597 /* main.m in Sources */,
 				35E963601B4A3C7600AE31E3 /* LGtitleBarView.m in Sources */,
+				307F59ED1B54A41300764FC4 /* LGCategoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
